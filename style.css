@@ -1,0 +1,368 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*My Code*/
+* {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+header .brand {
+  font-family: courier, sans-serif, arial;
+  font-size: 24px;
+  font-weight: 900;
+  color: #111;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0px;
+}
+
+header nav {
+  vertical-align: middle;
+
+}
+header nav ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  padding: 0 15px;
+}
+
+header nav ul a {
+  font-family: courier, sans-serif, arial;
+  font-size: 17px;
+  color: #111;
+  text-transform: uppercase;
+}
+
+header .headerCases {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  header .brand {
+  margin: 30px 0;
+  text-align: left;
+  line-height: 40px;
+  padding: 0 20px 0px 40px;
+  border-right: 3px  Solid #111;
+  float: left;
+}
+  header nav ul {
+  margin: 20px 0px 0px 10px;
+  float: left;
+}
+
+header nav ul a {
+  line-height: 60px;
+  color: #111;
+}
+
+  header .headerCases {
+  display: block;
+  font-family: courier, sans-serif, arial;
+  font-size: 17px;
+  color: #111;
+  text-transform: uppercase;
+  line-height: 40px;
+  border: 1px solid;
+  float: right;
+  margin-top: 25px;
+  margin-right: 25px;
+  padding: 0 20px;
+  }
+}
+
+
+
+
+/**Index page**/
+
+.indexPage {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('https://images.unsplash.com/photo-1493087670264-2f7f5844b402?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7a781d8507586cedd22906e268ae4f94&auto=format&fit=crop&w=1349&q=80');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+
+}
+
+.verticalCenter {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.indexPage h2 {
+  font-family: courier, sans-serif, arial;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 70px;
+  text-shadow: 2px 2px 8px #111;
+  text-align: center;
+  color: #fff;
+}
+
+.indexPage h1 {
+  font-family: courier, sans-serif, arial;
+  font-size: 28px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 40px;
+  text-shadow: 2px 2px 8px #111;
+  text-align: center;
+  color: #fff;
+}
+
+.indexLinks div {
+  margin: 15px 15px 0;
+  width: calc(100% - 30px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.indexLinks div h3 {
+  font-family: sans-serif, arial;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 40px;
+  color: #111;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+  @media only screen and (min-width: 1000px) {
+    .wrapper {
+      width: 1000px;
+      margin: 0 auto;
+     }
+
+    .indexPage {
+     height: 450px;
+     }
+
+
+    .indexLinks h1 {
+     display: block;
+     width: 550px;
+     margin: 0 auto;
+     }
+
+    .indexLinks {
+      padding-bottom: 30px;
+      overflow: hidden;
+    }
+
+    .indexLinks div {
+      margin: 20px 10px 0;
+      height: 230px;
+      background-color: #f2f2f2;
+      float: left;
+     }
+
+    .boxLinkSquare {
+      width:calc(25% - 20px) !important;
+     }
+
+    .boxLinkRectangle {
+      width:calc(50% - 20px) !important;
+     }
+
+    .indexLinks div h3 {
+      line-height: 230px;
+    }
+  }
+/*Footer*/
+
+footer {
+  box-sizing: border box;
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #111;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding-left: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: courier, sans-serif, arial;
+  font-size: 24px;
+  color: #111;
+  color: white;
+  line-height: 40px;
+}
+
+.footerCases {
+  display: none;
+}
+
+.footerSm {
+  width: 50px;
+  float: right;
+  margin-right:  75px;
+  margin-top: 10px;
+}
+
+.footerSm img {
+  width: 100%;
+
+ }
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+ fa:hover {
+  opacity: 0.7;
+}
+
+ .fa-linkedin {
+
+   background: #007bb5;
+   color: white;
+ }
+ .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+ @media only screen and (min-width: 1000px) {
+
+   .footerMain {
+        display: block;
+      }
+
+   footer ul li p {
+     font-family: courier, sans-serif, arial;
+     font-size: 24px;
+     color: #111;
+     color: white;
+     line-height: 40px;
+     text-transform: uppercase;
+   }
+  }
